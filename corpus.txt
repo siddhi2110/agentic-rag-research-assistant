@@ -1,0 +1,9 @@
+AI red teaming is a process of stress-testing AI systems to find vulnerabilities, biases, or failure cases. It helps improve robustness and safety before deployment.
+
+AI alignment ensures AI systems behave in ways aligned with human goals and values. Misaligned models can cause harm even when performing correctly from a technical perspective.
+
+Guardrails are tools used to set constraints on AI outputs, ensuring they follow ethical, safe, and useful guidelines. They can prevent AI from generating harmful or biased content.
+
+Open-source safety tools like "Rebuff" and "Helm" help researchers and developers test, evaluate, and monitor safety in language models.
+
+Interpretability research helps us understand how language models make decisions, improving trust and safety in AI deployment.
