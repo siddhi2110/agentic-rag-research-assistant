@@ -1,9 +1,18 @@
-AI red teaming is a process of stress-testing AI systems to find vulnerabilities, biases, or failure cases. It helps improve robustness and safety before deployment.
+AI safety is the field concerned with ensuring that AI systems behave in beneficial, reliable, and controllable ways. It includes research into alignment, robustness, interpretability, and avoiding harmful unintended consequences.
 
-AI alignment ensures AI systems behave in ways aligned with human goals and values. Misaligned models can cause harm even when performing correctly from a technical perspective.
+Red teaming in AI involves simulating adversarial attacks or misuse scenarios to uncover weaknesses in AI systems. It is used to stress-test models for robustness, fairness, security, and safety vulnerabilities before deployment.
 
-Guardrails are tools used to set constraints on AI outputs, ensuring they follow ethical, safe, and useful guidelines. They can prevent AI from generating harmful or biased content.
+Agentic RAG refers to an advanced form of RAG where AI agents use tools, reasoning, and memory to autonomously retrieve and generate high-quality, context-aware answers. It goes beyond simple RAG by incorporating planning and decision-making.
 
-Open-source safety tools like "Rebuff" and "Helm" help researchers and developers test, evaluate, and monitor safety in language models.
+Hallucinations in LLMs refer to instances where the model generates information that is factually incorrect or fabricated. Techniques to reduce hallucinations include grounding, retrieval augmentation, and using guardrails.
 
-Interpretability research helps us understand how language models make decisions, improving trust and safety in AI deployment.
+Responsible AI focuses on creating and using AI systems in a way that is ethical, transparent, and accountable. Key pillars include fairness, privacy, safety, and inclusivity.
+
+A vector store stores document embeddings and enables efficient similarity search. In a RAG pipeline, vector stores like FAISS, Chroma, or Pinecone are used to retrieve the most relevant documents based on the user query embedding.
+
+Prompt engineering is the art of designing input prompts to guide the behavior of large language models. It plays a critical role in the performance of RAG systems, especially in zero-shot and few-shot settings.
+
+LangChain is a framework for building LLM-powered applications. It supports integration with vector stores, LLMs, agents, tools, and retrievers to create modular, scalable AI systems.
+
+Guardrails are safety mechanisms that restrict or guide the output of LLMs to prevent harmful or inappropriate behavior. Moderation tools filter inputs and outputs for policy violations, hate speech, or sensitive content.
+In recent years, AI safety has emerged as a rapidly evolving field, driven by the growing capabilities and deployment of large-scale AI systems like GPT-4 and other foundation models. A key trend is the shift from theoretical discussions to practical implementations, where safety measures are embedded directly into model development through techniques like Reinforcement Learning from Human Feedback (RLHF), Constitutional AI, and model alignment strategies. Organizations are increasingly focusing on red teaming, where adversarial testing is used to discover unsafe behaviors before deployment. There is also a growing emphasis on interpretable AI, as researchers aim to make model decision-making processes more transparent and understandable to prevent unpredictable outcomes. Moreover, governments and international bodies are beginning to play a larger role, proposing regulations and forming alliances to ensure responsible AI development. Another significant trend is the rise of open-source safety tools, collaborative safety evaluations, and benchmarks for model behavior and robustness. As AI models continue to grow in power and autonomy, the focus is expanding from narrow safety (e.g., bias mitigation) to existential risk reduction, preparing for the possibility of superintelligent systems. These trends highlight the increasing importance of multidisciplinary collaboration between engineers, ethicists, policymakers, and the global research community to ensure AI remains safe and aligned with human values.

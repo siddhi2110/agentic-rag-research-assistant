@@ -13,7 +13,7 @@ query = input("\n🧠 Ask your AI Research Assistant a question: ")
 
 # Step 4: Retrieve top matching chunks
 retriever = vectorstore.as_retriever(search_type="similarity", k=3)
-relevant_docs = retriever.get_relevant_documents(query)
+relevant_docs = retriever.invoke(query)
 
 # Step 5: Show matching chunks
 print("\n🔍 Top Matching Results:\n")
