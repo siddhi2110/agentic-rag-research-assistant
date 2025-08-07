@@ -27,17 +27,17 @@ This assistant allows users to ask questions like “What is AI Safety?” and g
    
 2. Create and activate a virtual environment:
    
-    python -m venv .venv
-    .venv\Scripts\activate
+       python -m venv .venv
+       .venv\Scripts\activate
 
 3. Install requirements:
 
-    pip install -r requirements.txt
+       pip install -r requirements.txt
 
 4. Add your OpenAI key in a .env file:
 
-    OPENAI_API_KEY=your_api_key_here
+       OPENAI_API_KEY=your_api_key_here
 
 5. Run the assistant:
 
-    python main.py
+       python main.py
